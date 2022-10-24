@@ -17,6 +17,7 @@
 <center>
     <h1>Detail product</h1>
 </center>
+<!--/*@thymesVar id="product" type=""*/-->
 <table border="1" th:object="${product}" class="table">
     <tr>
         <th >ID</th>

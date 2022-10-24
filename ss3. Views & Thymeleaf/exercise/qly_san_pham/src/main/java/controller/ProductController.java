@@ -24,7 +24,7 @@ public class ProductController {
     public String show(Model model) {
         List<Product> productList = productService.findAll();
         model.addAttribute("productList", productList);
-        return "/list";
+        return "/list";  
     }
 
     @GetMapping("/create")
